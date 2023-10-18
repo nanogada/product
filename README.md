@@ -24,7 +24,7 @@ git init으로 시작
 
     본인이 누군지 선언
 
-        git config --global user.name "name"
+        gc
 
         git config --global user.email youremail@snu.ac.kr
 6. git commit
