@@ -6,7 +6,7 @@ VS Code에 GitHub Repositories Extension
 
 
 VS Code에 Markdown Extension
-## 순서
+## 개발 순서
 git init으로 시작
 1. git clone [링크]로 갖고온다
 2. git branch [branch_name]으로 브랜치를 만든다
@@ -19,22 +19,28 @@ git init으로 시작
     commit 가능한 파일들 표시
 
 4. git add [변경사항]
-
-5. git config
+    
+        git add .
+        git add [변경사항]
+    
+5. git config로 보내는 사람이 누군지 선언
 
     본인이 누군지 선언
 
         git config --global user.name "name"
 
         git config --global user.email youremail@snu.ac.kr
-6. git commit
+6. git commit으로 보낼 준비 마무리하기
 
         git commit -m "<comment message>"
 
 
-7. git remote add origin [원격저장소 주소]
+7. git remote add로 보낼 장소 설정
 
-8. git push
+        git remote add origin [원격저장소 주소]
+
+8. git push로 저장소에 보내기
+    
     commit은 그냥 작업 뭉탱이일 뿐
 
             git push -u origin HEAD
