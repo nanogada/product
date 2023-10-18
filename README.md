@@ -1,16 +1,11 @@
 # 연습해보기
 
-## 이름써보기
-### 1. 신정민
-+ 신정민
 
--------------
-## 코드작성
-    들여쓰기로 코드블럭
-``` C
-따옴표로 만들기
-printf("Hello World!")
-``` 
+## 시작
+VS Code에 GitHub Repositories Extension 
+
+
+VS Code에 Markdown Extension
 ## 순서
 git init으로 시작
 1. git clone [링크]로 갖고온다
@@ -47,3 +42,17 @@ git init으로 시작
     HEAD는 현재 내가 만든 커밋
 
     -u는 서버에 만들어진 브랜치를 따라간다는 뜻
+
+
+## 이름써보기
+### 1. 신정민
++ 신정민
+
+-------------
+## 코드작성
+    들여쓰기로 코드블럭
+``` C
+따옴표로 만들기
+printf("Hello World!")
+``` 
+
