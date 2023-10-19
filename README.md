@@ -8,10 +8,27 @@ VS Code에 GitHub Repositories Extension
 VS Code에 Markdown Extension
 ## 개발 순서
 git init으로 시작
+
+# 요약
+branch파기
+->git config로 보내는 사람 선언
+
+->git remote로 업로드 할 장소 선언
+
+->git add로 업로드 할 변경사항 확정
+
+ ->git commit 으로 변경사항 
+ commit하기
+
+ ->git push로 commit 되어있는 사항 보내기
+ 
+ ->pull requiest로 변경사항 적용하기
+
 1. git clone [링크]로 갖고온다
 2. git branch [branch_name]으로 브랜치를 만든다
 
         git checkout [branch_name]?
+
 
 + 작업시작 전에 꼭 브랜치 확인하기
 3. git status
