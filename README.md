@@ -44,7 +44,7 @@ branch파기
 
     본인이 누군지 선언
 
-        gc
+        git config --global user.name "username"
 
         git config --global user.email youremail@snu.ac.kr
 6. git commit으로 보낼 준비 마무리하기
@@ -69,6 +69,7 @@ branch파기
 
 ## 이름써보기
 ### 1. 신정민
++ 신정민
 + 신정민
 
 -------------
